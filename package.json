@@ -1,0 +1,26 @@
+{
+  "name": "typescript-gas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OdaDaisuke/typescript-gas.git",
+  "author": "OdaDaisuke <hinopon25@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "_build:config:webpack": "tsc webpack.config.ts --skipLibCheck",
+    "_watch:ts": "webpack --watch",
+    "build": "npm run _build:config:webpack && npm run _watch:ts"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^0.0.26",
+    "@types/webpack": "^4.4.8",
+    "awesome-typescript-loader": "^5.2.0",
+    "es3ify-webpack-plugin": "^0.0.1",
+    "gas-webpack-plugin": "^0.3.0",
+    "typescript": "^2.9.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "webpack": "^4.16.3"
+  }
+}
