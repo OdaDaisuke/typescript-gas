@@ -8,7 +8,7 @@
 ```shell
 $ git clone https://github.com/OdaDaisuke/typescript-gas.git &  cd typescript-gas
 $ yarn
-$ # /src/sample.tsのSSIDとDIR_IDを設定
+$ # /src/sample.tsにSSIDとDIR_IDを設定
 $ yarn build
 $ # .tsファイルの変更が監視される
 $ # dist/sample.jsをスプレッドシートのスクリプトエディタのコピペし、「run」メソッドを起動。
